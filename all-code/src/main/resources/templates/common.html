@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Login</title>
+    <meta charset="utf-8">
+    <!-- responsive tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link type="text/css" rel="stylesheet" href="../static/public/bootstrap/css/bootstrap.css" th:href="@{public/bootstrap/css/bootstrap.css}"/>
+</head>
+<body>
+<div class="container">
+    <!-- Content here -->
+    <div class="col-md col-md-6">
+        <p th:text="'hello, ' + ${name} + '!'"></p>
+        <div class="container-sm">100% wide until small breakpoint</div>
+        <div class="container-md">100% wide until medium breakpoint</div>
+        <div class="container-lg">100% wide until large breakpoint</div>
+        <div class="container-xl">100% wide until extra large breakpoint</div>
+    </div>
+    <div class="col-md col-md-6">
+
+    </div>
+</div>
+<div class="container-fluid">
+    ...
+</div>
+<script type="application/javascript" charset="UTF-8" src="../static/public/bootstrap/js/bootstrap.js" th:href="@{public/bootstrap/js/bootstrap.js}"></script>
+</body>
+</html>
